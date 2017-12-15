@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     tools:context="com.example.mithilamin.wifichat1.MainActivity">
 
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/container_root"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="top"
+        android:orientation="vertical" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
